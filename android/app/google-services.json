@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696613004753",
+    "project_id": "crudoperations-4c8fd",
+    "storage_bucket": "crudoperations-4c8fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696613004753:android:1cfb17d48a8fcbabacecf0",
+        "android_client_info": {
+          "package_name": "com.crudinfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696613004753-14svv38m0r9bsfpo6k3l26a52rrunbll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArX990GA4uf_tSPVmnyYp4hYQiGD9ACzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696613004753-14svv38m0r9bsfpo6k3l26a52rrunbll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
