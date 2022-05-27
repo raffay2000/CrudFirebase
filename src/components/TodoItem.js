@@ -1,8 +1,11 @@
 import React from 'react'
 import { Text,View ,StyleSheet,TouchableOpacity} from 'react-native'
 // import { MaterialIcons } from '@expo/vector-icons';
+import MaterialIcons from "react-native-vector-icons/MaterialCommunityIcons"
+import Feather from "react-native-vector-icons/Feather"
 
-const TodoItem = ({text,desc,onPress,textDes}) => {
+
+const TodoItem = ({text,desc,onPress,textDes,onPressEdit}) => {
   return (
       
         <View style={styles.container}>
@@ -10,20 +13,21 @@ const TodoItem = ({text,desc,onPress,textDes}) => {
         <Text style={styles.textStyle}>
             {text}
         </Text>
+        <View>
         <TouchableOpacity onPress={onPress}>
-            {/* <MaterialIcons name="delete" size={25} color="red" /> */}
+            <MaterialIcons name="delete" size={25} color="red" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={onPressEdit} >
+            <Feather name="edit" size={25} color="blue" />
         </TouchableOpacity>
         </View>
-        
+        </View>
         <View style={styles.descStyle}>
         <Text>
         {desc}
         </Text>
         </View>
-    </View>
-    
-    
-    
+    </View>  
   )
 }
 const styles= StyleSheet.create({
