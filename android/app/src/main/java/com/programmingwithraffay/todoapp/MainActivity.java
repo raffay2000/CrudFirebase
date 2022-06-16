@@ -1,4 +1,4 @@
-package com.crudinfirebase;
+package com.programmingwithraffay.todoapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

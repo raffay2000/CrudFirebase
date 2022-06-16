@@ -1,4 +1,4 @@
-package com.crudinfirebase.newarchitecture.modules;
+package com.programmingwithraffay.todoapp.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

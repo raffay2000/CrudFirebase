@@ -1,4 +1,4 @@
-package com.crudinfirebase.newarchitecture;
+package com.programmingwithraffay.todoapp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.crudinfirebase.BuildConfig;
-import com.crudinfirebase.newarchitecture.components.MainComponentsRegistry;
-import com.crudinfirebase.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.programmingwithraffay.todoapp.BuildConfig;
+import com.programmingwithraffay.todoapp.newarchitecture.components.MainComponentsRegistry;
+import com.programmingwithraffay.todoapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

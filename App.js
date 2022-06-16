@@ -17,8 +17,6 @@ import DialogInput from 'react-native-dialog-input';
 
 const App = () => {
   // states
-  // const [name, setname] = useState('');
-  // const [email, setemail] = useState('');
   const [databaseData, setDatabaseData] = useState([]);
   const [user, setuser] = useState({name: '', email: '', id: ''});
 
@@ -60,7 +58,6 @@ const App = () => {
   };
   const getData = async () => {
     const users = await firestore().collection('Users').get();
-    // console.log(users.docs)
     setDatabaseData(users.docs);
 
     // get Data with unique id
